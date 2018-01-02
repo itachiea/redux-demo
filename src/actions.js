@@ -40,5 +40,5 @@ function thumbDownComment(id) {
 	}
 }
 
-//export default ADD_COMMENT;
 export default addComment;
+export {thumbUpComment, thumbDownComment, removeComment};

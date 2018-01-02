@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducer from './reducer';
 import addComment from './actions';
+import thumbUpComment from './actions';
 
 const store = createStore(reducer);
 
